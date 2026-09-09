@@ -1,4 +1,4 @@
-# Puzzle Solver
+# Christmas Puzzle Solver
 
 **This project is no longer under active development.**
 
