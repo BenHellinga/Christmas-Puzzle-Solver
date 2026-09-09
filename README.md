@@ -18,8 +18,6 @@ Each piece is hand-entered as a small grid of tile IDs and rotations, matching t
 
 The solver is a recursive backtracker: for each piece in turn, it tries every (x, y) position on the board, in each of the piece's 4 rotations, mirrored and not (8 orientations total), places it if it doesn't collide with anything already on the board, and recurses on the next piece. If a placement leads nowhere, it's undone and the next option is tried. It stops the moment all 9 pieces fit.
 
-There's a bit of duplication between `solve` (the general recursive step) and `solve1` (used only for the very first piece, with progress tracking always on) left over from how this was originally built and debugged, still functionally the same search.
-
 ### The overnight run
 
 I was confident the search covered every possible arrangement, so I let it run overnight expecting it to come back with the solution. Instead, it ran through the entire search space and reported no solution at all.
