@@ -4,7 +4,7 @@
 
 ## About
 
-This is an old project originally written in 2023 being uploaded to GitHub now. It's a C# console application that brute-force solves "Ice Puzzle 9" by Yuu Asaka, a packing puzzle where a set of oddly-shaped, tabbed/notched pieces has to be arranged to fill a 9x6 tray.
+This is an old project originally written in 2021 being uploaded to GitHub now. It's a C# console application that brute-force solves "Ice Puzzle 9" by Yuu Asaka, a packing puzzle where a set of oddly-shaped, tabbed/notched pieces has to be arranged to fill a 9x6 tray.
 
 I got the puzzle as a Christmas present and couldn't solve it by hand, so instead of giving up I encoded every piece into the program and wrote a solver to search for the arrangement for me.
 
