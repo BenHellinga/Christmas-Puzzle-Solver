@@ -29,3 +29,9 @@ Since I trusted the search logic, that result told me something about my model o
 Open the project in VS Code (or any editor with the C# dev kit) and run it, no input required.
 
 The program prints its search progress to the console as it goes, and either prints the solved board layout or "No solution found" once the search space is exhausted.
+
+## Example
+
+Mid solve:
+
+<img width="687" height="577" alt="image" src="https://github.com/user-attachments/assets/3bbb0f3b-e661-4b94-8d45-f3fce6b6fb6a" />
